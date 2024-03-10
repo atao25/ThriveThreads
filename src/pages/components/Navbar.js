@@ -4,11 +4,12 @@ import logo from '../../images/catimg.png'
 import { Link } from 'react-router-dom';
 
 
+
 const Navbar = () => {
   return (
     <nav>
         <div className = "logo-container">
-            <img src={logo} alt="Cat Image" style={{ width: '100px', height: '100px' }}></img>
+            <img src={logo} alt="Cat Image" style={{ width: '150px', height: '100px' }}></img>
             <h1>ThriveThreads</h1>
         </div>
         <div>
@@ -25,6 +26,9 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="/">Login</Link>
+                </li>
+                <li>
+                    <Link to="/profile">Profile</Link>
                 </li>
                    
                 

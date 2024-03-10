@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/login';
 import Navbar from './pages/components/Navbar';
 import Thread from './pages/Thread';
+import Profile from './pages/components/Profile';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" exact element={<Login/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/thread" element={<Thread/>} />
+        <Route path="/profile" element={<Profile/>} />
       </Routes>
     </Router>
   );

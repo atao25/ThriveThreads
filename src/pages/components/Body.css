@@ -22,7 +22,7 @@ body {
 .side-panel {
     width: 180px; 
     background-color: #F9F4E9;
-    height: 520px;
+    height: 600px;
     padding:20px;
     flex-shrink:0;
     border-radius: 10px;
@@ -30,7 +30,7 @@ body {
 
 .main {
     background-color: #f9f4e9;
-    height: 520px;
+    height: 600px;
     padding: 20px;
     width: 1100px;
     flex-shrink: 0;

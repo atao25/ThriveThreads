@@ -3,7 +3,7 @@ import './Profile.css';
 import chineselogo from "../../images/ch-removed.png";
 import frenchlogo from "../../images/fr-removed.png";
 import uklogo from "../../images/uk-removed.png";
-import catprofile from "../../images/cat.jpg";
+import catprofile from "../../images/cat-modified.png";
 
 
 // Functional component for the Profile Page
@@ -18,56 +18,33 @@ return (
    <h2 className='headings'>Settings</h2>
    <hr></hr>
        <div className='thing'>
-           <label className='title'>Name:</label>
-           <br></br>
-           <label className='info'>myName</label>
+           <label className='title'>Name:<br></br><label className = 'label'>myName</label></label>
        </div>
        <div  className='thing'>
-           <label className='title'>Email:</label>
-           <br></br>
-           <label className='info' >myEmail@gmail.com</label>
+           <label className='title'>Email:<br></br><label className = 'label'>myEmail@gmail.com</label></label>
        </div>
        <div className='thing'>
-           <label className='title'>Birthday:</label>
-           <br></br>
-           <label className='info'> 03/10/2024</label>
+           <label className='title'>Birthday:<br></br><label className = 'label'>03/10/2024</label></label>
+          
        </div>
        <div  className='thing'>
-           <label className='title'>Username:</label>
-           <br></br>
-           <label className='info'>myAmazingUsername</label>
+           <label className='title'>Username:<br></br><label className = 'label'>myAmazingUsername</label></label>
+           
        </div>
        <div  className='thing'>
-           <label className='title'>Password:</label>
-           <br></br>
-           <label className='info'>************</label>
+           <label className='title'>Password:<br></br><label className = 'label'>************</label></label>
+         
        </div>
    </div> 
 
 
-       {/* Personal Preferences Section */}
-       <div className="preferences-section">
-           <h2 className='headings'> Preferences</h2>
-           <hr></hr>
-           <div className='thing'>
-               <label className='title'>Languages: </label> <br></br>
-               <label className='language'>Chinese</label>
-               <img src={chineselogo} id='chineselogo'></img>
-               <br></br>
-               <label className='language'>French</label>
-               <img src={frenchlogo} id='frenchlogo'></img>
-               <br></br>
-               <label className='language'>English</label>
-               <img src={uklogo} id='uklogo'></img>
-              
-           </div>
-           </div>
-       </div>
+       </div> 
    </div>
 
 
-   <div>
+   <div className = "cimg">
        <img src = {catprofile} id="cat"></img>
+       <h1>Hello Elisa!</h1>
    </div>
 
 
