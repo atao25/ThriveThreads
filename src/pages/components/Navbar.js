@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '/Users/allisontao/Desktop/cmdf/src/images/catimg.png'
-import profile from '/Users/allisontao/Desktop/cmdf/src/images/profileimg.png'
+import logo from '/Users/amycao/Desktop/cmd-f/cmd-f/react/cmdf/src/images/catimg.png'
 
 
 const Navbar = () => {
