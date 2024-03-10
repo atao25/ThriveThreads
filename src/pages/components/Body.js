@@ -1,7 +1,8 @@
 import React from 'react'
 import './Body.css'
 import { useState } from 'react';
-import { promptChat, promptRerank } from './cohere';
+import { promptChat } from './cohere';
+import { Link } from 'react-router-dom';
 
 const Body = () => {
   const [message, setMessage] = useState('');
@@ -28,7 +29,7 @@ const Body = () => {
         
 
         <div className = "section">
-          <p className = "side1">Prioritizing Self-Care</p>
+          <p className = "side1"><Link className="side1" to="/thread">Prioritizing Self-Care</Link></p>
           <hr/>
         </div>
 

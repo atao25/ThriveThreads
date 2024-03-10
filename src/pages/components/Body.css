@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #F5B19C;
-    padding-top:100px;
+    padding-top:50px;
     padding-bottom:20px; 
     padding-left:20px;
     padding-right:20px;
@@ -58,10 +58,11 @@ p {
     text-align: center;
     font-weight: bold;
     color: #365F32;
+    text-decoration: none;
 }
 
 .textbox-container {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 textarea {
@@ -69,5 +70,9 @@ textarea {
     height: 30px; 
     resize: none;
      
+}
+
+ol {
+    font-size: small;
 }
  

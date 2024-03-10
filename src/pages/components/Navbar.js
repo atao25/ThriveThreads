@@ -21,7 +21,7 @@ const Navbar = () => {
                     <a href = "index.html">Explore</a>
                 </li>
                 <li>
-                    <a href = "index.html">Threads</a>
+                    <Link to="/thread">Threads</Link>
                 </li>
                 <li>
                     <Link to="/">Login</Link>

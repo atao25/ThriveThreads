@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/login';
 import Navbar from './pages/components/Navbar';
+import Thread from './pages/Thread';
 
 function App() {
   return (
@@ -13,10 +14,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Login/>} />
         <Route path="/home" element={<Home/>} />
-        {/* <div className="cmdf">
-          <Home />
-        
-        </div> */}
+        <Route path="/thread" element={<Thread/>} />
       </Routes>
     </Router>
   );
