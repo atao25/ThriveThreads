@@ -15,7 +15,7 @@ const Thread = () => {
     const [postThree, setPostThree] = useState("Genau richtig! Die Kraft der Dankbarkeit zu nutzen, wurde zu meinem Anker für die Selbstfürsorge. Das tägliche Nachdenken über positive Aspekte brachte eine tiefgreifende Veränderung. Es geht darum, nicht nur den Körper, sondern auch den Geist zu fördern. Das Aufzeichnen von Dankbarkeitsnotizen verwandelte die Routine in eine Achtsamkeitsübung. Die Anerkennung kleiner Erfolge verstärkte die Wirkung und machte Selbstfürsorge zu einer ganzheitlichen Praxis in meinem geschäftigen Leben.");
 
     const translate = async (post, num) => {
-        const newPost = await callChat("Translate this to English: " + post);
+        const newPost = await callChat("Translate and return this paragraph to English: " + post);
         if (num == 1) {
             setPostOne(newPost);
         } else if (num == 2) {
