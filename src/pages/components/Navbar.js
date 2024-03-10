@@ -1,12 +1,16 @@
 import React from 'react'
 import './Navbar.css'
+import logo from '/Users/allisontao/Desktop/cmdf/src/images/catimg.png'
+import profile from '/Users/allisontao/Desktop/cmdf/src/images/profileimg.png'
+
 
 const Navbar = () => {
   return (
     <nav>
-        <a>
-            <img src="/Users/allisontao/cmdf/src/images/circle.jpg"></img>
-        </a>
+        <div className = "logo-container">
+            <img src= {logo} alt="Cat Image" style={{ width: '100px', height: '100px' }}></img>
+            <span>ThriveThreads</span>
+        </div>
         <div>
             <ul id = "navbar">
               
@@ -21,10 +25,8 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a href = "index.html">Login</a>
-                </li>  
-                <a>
-                    <img src="/Users/allisontao/cmdf/src/images/profile.jpeg"></img>
-                </a>
+                </li>
+                   
                 
             </ul>
        

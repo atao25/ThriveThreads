@@ -31,6 +31,15 @@ nav {
     color: #365F32;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    color:#365F32;
 
+}
 
-
+.profile {
+    display: flex;
+    align-items: center;
+    color:#365F32;
+}
