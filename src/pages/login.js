@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './login.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -13,7 +14,7 @@ const Login = () => {
 
         setUsername('');
         setPassword('');
-
+        
     };
 
     return (
@@ -36,7 +37,7 @@ const Login = () => {
                     onChange={(e) => setPassword(e.target.value)}
                     required
                     />
-                    <button type="submit">Login</button>
+                    <button type="submit"><Link className="link" to="/home">Login</Link></button>
                 </form>
             
         </div>

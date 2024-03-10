@@ -1,7 +1,7 @@
 import React from 'react'
 import './Body.css'
 import { useState } from 'react';
-import { promptChat } from './cohere';
+import { promptChat, promptRerank } from './cohere';
 
 const Body = () => {
   const [message, setMessage] = useState('');
@@ -17,11 +17,9 @@ const Body = () => {
     };
 
     const handleSubmit = () => {
-        // Handle the submitted text (e.g., send it to an API, update state, etc.)
-        console.log('Submitted Text: ', inputText);
-        setInputText('');
         setOutputText(inputText);
         callChat(inputText);
+        setMessage("Generating answer...")
     };
 
   return (
