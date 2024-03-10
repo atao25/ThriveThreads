@@ -18,7 +18,7 @@ return (
    <h2 className='headings'>Settings</h2>
    <hr></hr>
        <div className='thing'>
-           <label className='title'>Name:<br></br><label className = 'label'>myName</label></label>
+           <label className='title'>Name:<br></br><label className = 'label'>Elisa</label></label>
        </div>
        <div  className='thing'>
            <label className='title'>Email:<br></br><label className = 'label'>myEmail@gmail.com</label></label>
@@ -28,7 +28,7 @@ return (
           
        </div>
        <div  className='thing'>
-           <label className='title'>Username:<br></br><label className = 'label'>myAmazingUsername</label></label>
+           <label className='title'>Username:<br></br><label className = 'label'>eWong123</label></label>
            
        </div>
        <div  className='thing'>
