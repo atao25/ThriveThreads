@@ -1,0 +1,86 @@
+body {
+    background-color: #F5B19C;
+ }
+ 
+ 
+ .side-bar {
+    background-color: #F9F4E9;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    width: 200px;
+ }
+ 
+ 
+ .preferences-section {
+    padding-top: 20px;
+ }
+ 
+ 
+ .headings {
+    font-weight: 500;
+ }
+ 
+ 
+ .info {
+    font-weight: 250;
+ }
+ 
+ 
+ .title {
+    font-weight: 500;
+    padding-top: 5000px;
+ }
+ 
+ 
+ 
+ 
+ .thing {
+    margin-bottom: 20px;
+ }
+ 
+ 
+ #chineselogo {
+    width: 30px;
+    height: 30px;
+    padding-left: 13px;
+    padding-top: 10px;
+ }
+ 
+ 
+ #frenchlogo {
+    width: 30px;
+    height: 30px;
+    padding-left: 22px;
+    padding-top: 10px;
+ }
+ 
+ 
+ #uklogo {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+ }
+ 
+ 
+ .language {
+    padding-bottom: 80px;
+ }
+ 
+ 
+ body {
+    display: flex;
+ }
+ 
+ 
+ #cat {
+    padding-top: 90px;
+    padding-left: 170px;
+    width: 600px;
+    height: 400px;
+ }
+ 
